@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+@media(min-width: 550px) {
+  body {
+    padding: 8px 4px; /* Ajustar el espaciado para dispositivos móviles */
+  }
+
+  header {
+    // justify-content: center;
+    // flex-direction: column; 
+    // align-items: center; 
+  }
+}
+
+
+$main-color: #009379;
+
+
+.page2, .images {
+  display: flex;
+  justify-content: center;
+  
+  h2  {
+    font-size: 0.5rem;
+    
+  }
+
+}
+
+.images {
+  max-width: 320px;
+  max-height: 320px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+
+
+// .page3 {
+  
+
+// }
+

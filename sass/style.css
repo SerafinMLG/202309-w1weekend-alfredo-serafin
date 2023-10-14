@@ -1,1 +1,27 @@
-/*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+@media (min-width: 550px) {
+  body {
+    padding: 8px 4px; /* Ajustar el espaciado para dispositivos móviles */
+  }
+}
+.page2, .images {
+  display: flex;
+  justify-content: center;
+}
+.page2 h2, .images h2 {
+  font-size: 0.5rem;
+}
+
+.images {
+  max-width: 320px;
+  max-height: 320px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

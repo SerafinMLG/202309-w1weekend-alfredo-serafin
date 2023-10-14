@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "sass": "sass style:css -w",
+    "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,5 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "sass": "^1.69.3"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
   }
 }
