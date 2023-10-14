@@ -1,0 +1,63 @@
+$primary-color: #f8f9ff;
+
+body {
+  background-color: $primary-color;
+  max-width: 375px max-height 890px;
+  margin: 0rem;
+  padding: 12px 5px;
+  gap: 60px;
+
+  header {
+    display: flex;
+    margin: 0rem;
+    justify-content: center;
+    max-height: 72px;
+
+    .logo-resources {
+      width: 170px;
+      height: 32px;
+      gap: 6px;
+    }
+    .no-movil-display {
+      display: none;
+    }
+  }
+  .section1 {
+    text-align: center;
+    padding: 60px, 30px, 60px, 30px;
+    gap: 40px;
+    justify-content: center;
+    flex-direction: column;
+
+    .gapper {
+      gap: 40px;
+      h2 {
+        text-align: center;
+        max-width: 315px;
+        max-height: 147px;
+        gap: 0;
+        margin-top: 5px;
+        padding: auto;
+      }
+
+      .get-started {
+        p {
+          display: none;
+        }
+        .button1 {
+          position: relative;
+          max-width: 320px;
+          max-height: 320px;
+        }
+        .button2 {
+          display: none;
+        }
+      }
+    }
+
+    .container-img {
+      max-width: 320px;
+      max-height: 320px;
+    }
+  }
+}
