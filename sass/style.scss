@@ -5,37 +5,43 @@ body {
   max-width: 375px;
   margin: 0rem;
   padding: 12px 5px;
-  gap: 20px;
 
   header {
     display: flex;
-    margin: 0rem;
-    justify-content: center;
     max-height: 72px;
+    align-items: center;
 
     .logo-resources {
+      z-index: 0;
+      margin-left: 8px;
+      justify-content: center;
+      display: flex;
       width: 170px;
       height: 32px;
-      gap: 6px;
+      gap: 6;
     }
 
-    @media (width: 720px) {
+    @media (min-width: 720px) {
       .logo-resources {
-        justify-content: left;
-        margin-left: 10%;
+        justify-content: space-between;
+        margin-left: 5px;
         padding: 10px;
       }
     }
 
     .no-movil-display {
-      display: none;
+      z-index: 1;
+      visibility: hidden;
+      display: flex;
+      align-items: left;
+      gap: 10px;
+      max-width: 320px;
+      margin-left: 50%;
     }
 
-    @media (width> 720px) {
+    @media (min-width: 720px) {
       .no-movil-display {
-        flex-direction: initial;
-        display: initial;
-        justify-content: right;
+        visibility: visible;
       }
     }
   }
