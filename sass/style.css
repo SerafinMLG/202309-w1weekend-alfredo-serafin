@@ -1,9 +1,9 @@
 body {
   background-color: #f8f9ff;
-  max-width: 375px max-height 890px;
+  max-width: 375px;
   margin: 0rem;
   padding: 12px 5px;
-  gap: 60px;
+  gap: 20px;
 }
 body header {
   display: flex;
@@ -25,11 +25,15 @@ body .section1 {
   gap: 40px;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 20px;
+  z-index: 0;
 }
 body .section1 .gapper {
   gap: 40px;
 }
 body .section1 .gapper h2 {
+  font-size: 2rem;
+  font-weight: 800;
   text-align: center;
   max-width: 315px;
   max-height: 147px;
@@ -37,18 +41,42 @@ body .section1 .gapper h2 {
   margin-top: 5px;
   padding: auto;
 }
-body .section1 .gapper .get-started p {
+body .section1 .get-started p {
   display: none;
 }
-body .section1 .gapper .get-started .button1 {
-  position: relative;
+body .section1 .get-started .button1 {
   max-width: 320px;
   max-height: 320px;
 }
-body .section1 .gapper .get-started .button2 {
+body .section1 .get-started .button2 {
   display: none;
 }
 body .section1 .container-img {
   max-width: 320px;
   max-height: 320px;
+}
+body .section3 {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 320px;
+}
+body .section3 .section3_h1 {
+  text-align: center;
+  display: flex;
+  max-width: 320px;
+  margin-bottom: 10px;
+}
+body .section3 .section3_p {
+  max-width: 320px;
+  text-align: center;
+}
+body .section3 .oat_1 {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 320px;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
