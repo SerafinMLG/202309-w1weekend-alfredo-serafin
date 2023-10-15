@@ -1,1 +1,105 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  background-color: #f8f9ff;
+  max-width: 375px;
+  margin: 0rem;
+  padding: 12px 5px;
+}
+body header {
+  display: flex;
+  max-height: 72px;
+  align-items: center;
+}
+body header .logo-resources {
+  z-index: 0;
+  margin-left: 8px;
+  justify-content: center;
+  display: flex;
+  width: 170px;
+  height: 32px;
+  gap: 6;
+}
+@media (min-width: 720px) {
+  body header .logo-resources {
+    justify-content: space-between;
+    margin-left: 5px;
+    padding: 10px;
+  }
+}
+body header .no-movil-display {
+  z-index: 1;
+  visibility: hidden;
+  display: flex;
+  align-items: left;
+  gap: 10px;
+  max-width: 320px;
+  margin-left: 50%;
+}
+@media (min-width: 720px) {
+  body header .no-movil-display {
+    visibility: visible;
+  }
+}
+body .section1 {
+  text-align: center;
+  padding: 60px 30px 60px 30px;
+  gap: 40px;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  z-index: 0;
+}
+body .section1 .gapper {
+  gap: 40px;
+}
+body .section1 .gapper h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  max-width: 315px;
+  max-height: 147px;
+  gap: 0;
+  margin-top: 5px;
+  padding: auto;
+}
+body .section1 .get-started p {
+  display: none;
+}
+body .section1 .get-started .button1 {
+  max-width: 320px;
+  max-height: 320px;
+}
+body .section1 .get-started .button2 {
+  display: none;
+}
+body .section1 .container-img {
+  max-width: 320px;
+  max-height: 320px;
+}
+body .section3 {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 320px;
+}
+body .section3 .section3_h1 {
+  text-align: center;
+  display: flex;
+  max-width: 320px;
+  margin-bottom: 10px;
+}
+body .section3 .section3_p {
+  max-width: 320px;
+  text-align: center;
+  padding-left: 12px;
+  max-height: 3cm;
+}
+body .section3 .oat_1 {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 320px;
+  margin-bottom: 10px;
+  max-height: 3cm;
+}/*# sourceMappingURL=style.css.map */
